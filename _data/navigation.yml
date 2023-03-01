@@ -1,9 +1,57 @@
+# main links
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Search"
+    url: /Search/
+  - title: "ORC"
+    url: /ORC/preface/
+
+# example navigation
+docs:
+  - title: "Preface"
+    url: /ORC/preface/
+    children:
+      - title: "Background"
+        url: /ORC/preface/Background/
+      - title: "Future work"
+        url: /ORC/preface/Future-work/
+      - title: "Acknowledgments"
+        url: /ORC/preface/Acknowledgments/
+
+  - title: "Introduction"
+    url: /ORC/introduction/
+
+  - title: "0 — General rules"
+    url: /ORC/general-rules/
+    children:
+
+  - title: "1 — Title"
+    url: /ORC/title/
+    children:
+
+  - title: "2 — Edition"
+    url: /ORC/edition/
+    children:
+
+  - title: "3 — Imprint"
+    url: /ORC/imprint/
+    children:
+
+  - title: "4 — Material Description"
+    url: /ORC/material-description/
+    children:
+
+  - title: "5 — Content, media, and carrier types"
+    url: /ORC/content-media-carrier/
+    children:
+
+  - title: "6 — Series"
+    url: /ORC/series/
+    children:
+
+  - title: "7 — Additional Notes"
+    url: /ORC/additional-notes/
+    children:
+
+  - title: "Appendices"
+    url: /ORC/appendices/
+    children:
